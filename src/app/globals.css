@@ -24,3 +24,270 @@ body {
 	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.koreaterbotec-page {
+	min-height: 100vh;
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.koreaterbotec-header {
+	background-color: #ffffff;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.koreaterbotec-header-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 0;
+	font-size: 14px;
+}
+
+.koreaterbotec-logo {
+	font-size: 26px;
+	font-weight: 700;
+	color: #c74b4b;
+	letter-spacing: 1px;
+}
+
+.koreaterbotec-nav {
+	display: flex;
+	gap: 24px;
+}
+
+.koreaterbotec-nav a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: 500;
+}
+
+.koreaterbotec-nav-right {
+	display: flex;
+	gap: 12px;
+	font-size: 12px;
+}
+
+.koreaterbotec-link {
+	text-decoration: none;
+	color: #c74b4b;
+}
+
+.koreaterbotec-hero {
+	position: relative;
+	height: 360px;
+	overflow: hidden;
+}
+
+.koreaterbotec-hero-image {
+	width: 100%;
+	height: 100%;
+	background-image: url('/koreaterbotec-hero.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.koreaterbotec-hero-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.koreaterbotec-hero-badge {
+	background-color: rgba(199, 75, 75, 0.9);
+	color: #ffffff;
+	padding: 24px 32px;
+	font-size: 18px;
+	line-height: 1.6;
+	font-weight: 600;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.koreaterbotec-hero-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #333333;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.koreaterbotec-hero-arrow.left {
+	left: 24px;
+}
+
+.koreaterbotec-hero-arrow.right {
+	right: 24px;
+}
+
+.koreaterbotec-content {
+	background-color: #ffffff;
+	padding: 32px 0 40px;
+}
+
+.koreaterbotec-content-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1.1fr 1.1fr 1.1fr;
+	gap: 32px;
+	font-size: 13px;
+}
+
+.koreaterbotec-column-title {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 16px;
+	border-bottom: 2px solid #c74b4b;
+	padding-bottom: 8px;
+}
+
+.koreaterbotec-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 16px;
+}
+
+.koreaterbotec-list li {
+	margin-bottom: 6px;
+}
+
+.koreaterbotec-price-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 8px;
+	font-weight: 600;
+}
+
+.koreaterbotec-price-label {
+	color: #555555;
+}
+
+.koreaterbotec-price-value {
+	color: #000000;
+}
+
+.koreaterbotec-story-text {
+	line-height: 1.7;
+	margin-bottom: 16px;
+}
+
+.koreaterbotec-contact-info {
+	margin-bottom: 16px;
+	line-height: 1.6;
+}
+
+.koreaterbotec-phone {
+	font-size: 20px;
+	font-weight: 700;
+	color: #c74b4b;
+}
+
+.koreaterbotec-email {
+	color: #333333;
+}
+
+.koreaterbotec-time {
+	font-size: 12px;
+	color: #777777;
+}
+
+.koreaterbotec-form {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: 12px;
+}
+
+.koreaterbotec-form-row {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.koreaterbotec-form input,
+.koreaterbotec-form textarea {
+	border: 1px solid #d0d0d0;
+	padding: 6px 8px;
+	font-size: 12px;
+	resize: vertical;
+}
+
+.koreaterbotec-form textarea {
+	min-height: 70px;
+}
+
+.koreaterbotec-form-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 8px;
+}
+
+.koreaterbotec-checkbox {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.koreaterbotec-submit {
+	background-color: #c74b4b;
+	color: #ffffff;
+	border: none;
+	padding: 8px 16px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.koreaterbotec-footer {
+	background-color: #f5f5f5;
+	border-top: 1px solid #e0e0e0;
+	padding: 24px 0 32px;
+	font-size: 12px;
+	color: #666666;
+}
+
+.koreaterbotec-footer-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+}
+
+.koreaterbotec-footer-logo {
+	font-size: 22px;
+	font-weight: 700;
+	color: #c74b4b;
+}
+
+.koreaterbotec-footer-text {
+	line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+	.koreaterbotec-header-inner,
+	.koreaterbotec-content-inner,
+	.koreaterbotec-footer-inner {
+		padding: 0 16px;
+	}
+
+	.koreaterbotec-content-inner {
+		grid-template-columns: 1fr;
+	}
+
+	.koreaterbotec-nav {
+		display: none;
+	}
+}
